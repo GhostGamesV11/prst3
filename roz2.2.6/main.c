@@ -18,7 +18,7 @@ int main()
 int potega(int n,int m)
 {
     int wynik=1;
-    for(int i=m; i!=0;i--)
+    for(int i=m;i!=0;i--)
         wynik*=n;
     return wynik;
 }
